@@ -6,16 +6,10 @@ using System.Threading.Tasks;
 
 namespace BigRACE
 {
-
-    class Person
+    interface IGame
     {
-        private string name;
-
-
-        public Person(string name) 
-        { 
-
-        }
-
+        
+        void PlayGame();
     }
 }
+
